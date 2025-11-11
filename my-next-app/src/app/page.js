@@ -10,6 +10,7 @@ function Home() {
         padding : "10px 20px",
       }}
       >click</button>
+      
       <button 
       style={{
         backgroundColor : "var(--ui-color-surface-container-brand-primary-30)",
