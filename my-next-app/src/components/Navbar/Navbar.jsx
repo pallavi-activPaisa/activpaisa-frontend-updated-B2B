@@ -115,7 +115,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <nav
-      className="h-[4.5rem] w-full pt-[16px] pb-[16px] px-[32px] flex items-center justify-between"
+      className="h-[72px] w-[1440px] pt-[16px] pb-[16px] px-[32px] flex items-center justify-between"
       style={{
         backgroundColor: "var(--ui-color-surface-container-neutral-neutral-00)",
       }}
