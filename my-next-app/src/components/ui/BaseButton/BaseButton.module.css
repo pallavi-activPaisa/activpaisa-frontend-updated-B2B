@@ -1,0 +1,28 @@
+.baseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--Spacing-sp-6, 6px);
+  padding: var(--Spacing-sp-10, 10px) var(--Spacing-sp-16, 16px);
+  border-radius: var(--Corner-Radius-2xsmall, 8px);
+  border: var(--Border-Width-width-1, 1px) solid
+    var(--UI-Color-Border-neutral-10, #e5e7eb);
+  background: var(--UI-Color-Surface-Container-Neutral-neutral-00, #fff);
+  box-shadow:
+    0 1px 2px 0 var(--Effects-shadow-4, rgba(17, 24, 39, 0.04)),
+    0 1px 2px 0 var(--Effects-shadow-4, rgba(17, 24, 39, 0.04));
+  /* font-size: var(--typography-font-size-font-size-14, 14px); */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.iconRight {
+  margin-left: var(--Spacing-sp-4, 4px);
+}
+
+.iconLeft {
+  margin-right: var(--Spacing-sp-4, 4px);
+}

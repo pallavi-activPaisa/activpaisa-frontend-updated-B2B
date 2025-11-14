@@ -1,0 +1,61 @@
+/* ===============================
+   🎨 Button Component Styles
+   =============================== */
+
+:root {
+  /* Tokens — local to this component */
+  --Spacing-sp-6: 6px;
+  --Spacing-sp-10: 10px;
+  --Spacing-sp-16: 16px;
+  --Spacing-sp-20: 20px;
+  --Corner-Radius-2xsmall: 8px;
+  --ui-color-surface-container-brand-primary-30: #4c2399;
+  --ui-color-surface-container-brand-primary-40: #3e1d80;
+  --Effects-shadow-4: rgba(17, 24, 39, 0.04);
+}
+
+/* Base styles */
+.button-base00 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Spacing-sp-6, 6px);
+  border-radius: var(--Corner-Radius-2xsmall, 8px);
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow:
+    0 1px 2px 0 var(--Effects-shadow-4, rgba(17, 24, 39, 0.04)),
+    0 1px 2px 0 var(--Effects-shadow-4, rgba(17, 24, 39, 0.04));
+}
+
+.button-base00:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Variant: Primary */
+.button-primary {
+  background: var(--UI-Color-Surface-Container-Brand-primary-30, #4c2399);
+}
+
+.button-primary:hover {
+  background: var(--UI-Color-Surface-Container-Brand-primary-40, #3e1d80);
+}
+
+/* Sizes */
+.button-sm {
+  padding: var(--Spacing-sp-6, 6px) var(--Spacing-sp-8, 8px);
+  font-size: 0.875rem;
+}
+
+.button-md {
+  padding: var(--Spacing-sp-10, 10px) var(--Spacing-sp-16, 16px);
+  font-size: 14px;
+}
+
+.button-lg {
+  padding: var(--Spacing-sp-12, 12px) var(--Spacing-sp-20, 20px);
+  font-size: 1.125rem;
+}
