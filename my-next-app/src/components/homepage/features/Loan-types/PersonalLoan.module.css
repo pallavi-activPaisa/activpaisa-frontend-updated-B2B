@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 365px;
-  padding-right: 374px;
+  /* padding-left: 365px; */
+  /* padding-right: 374px; */
   padding-top: 77px;
 }
 
@@ -13,7 +13,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 77px;
+  gap: 25px;
   flex-wrap: nowrap;
 }
 
@@ -37,11 +37,11 @@
 .loanLabel {
   color: var(--ui-color-on-surface-on-neutral-00-1, #374151);
   font-family: var(--typography-label-inter-font-family, Inter);
-  font-size: var(--typography-label-l-2-size, 14px);
+  font-size: calc(var(--typogrraphy-label-l-2-size) * 1px);
   font-style: normal;
   font-weight: 500;
-  line-height: var(--typography-label-l-2-line-height, 16px);
-  letter-spacing: var(--typography-label-letter-spacing, 0);
+  line-height: calc(var(--typography-line-height-line-height-14) * 1px);
+  letter-spacing: calc(var(--typogrraphy-label-letter-spacing) * 1px);
   text-align: center;
   white-space: nowrap; /* ✅ text stays in one line */
 }

@@ -39,7 +39,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./PersonalLoan.module.css";
-import loanOptionsData from "../Content/loanOptions"; // ✅ Import from content folder
+import loanOptionsData from "../Content/loanOptions";
 
 const PersonalLoan = () => {
   const [loanOptions] = useState(loanOptionsData);
