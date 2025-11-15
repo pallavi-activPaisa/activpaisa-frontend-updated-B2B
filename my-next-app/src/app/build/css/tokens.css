@@ -3,6 +3,8 @@
  */
 
 :root {
+
+  /* this is our base tokens */
   --color-purple-100: #f2effc;
   --color-purple-200: #e7e2fa;
   --color-purple-300: #d0c6f6;
@@ -303,6 +305,10 @@
   --typograhy-weight-700: Bold;
   --typograhy-weight-800: Extra Bold;
   --typograhy-weight-900: Black;
+
+
+
+  /* this is our alias tokens  */
   --scale-scale-0: 0;
   --scale-scale-2: 2;
   --scale-scale-4: 4;
@@ -387,6 +393,10 @@
   --typography-letter-spacing-letter-spacing-20-2: -0.4000000059604645;
   --typography-letter-spacing-letter-spacing-24-2: -0.47999998927116394;
   --typography-letter-spacing-letter-spacing-28-2: -0.5600000023841858;
+
+
+
+  /* this is a main to use in our frontend */
   --ui-color-surface-bg-neutral-80: #111827;
   --ui-color-surface-bg-neutral-70: #374151;
   --ui-color-surface-bg-neutral-60: #6b7280;
