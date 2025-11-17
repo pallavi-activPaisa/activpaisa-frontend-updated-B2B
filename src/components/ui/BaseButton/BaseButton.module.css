@@ -1,0 +1,82 @@
+/* ================================
+   Base Button
+================================ */
+.baseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: var(--spacing-sp-6, 6px);
+  border-radius: var(--corner-radius-2xsmall, 8px);
+
+  border: 1px solid var(--ui-color-border-neutral-10, #e5e7eb);
+  background: var(--ui-color-surface-container-neutral-neutral-00, #fff);
+
+  box-shadow:
+    0 1px 2px rgba(17, 24, 39, 0.04),
+    0 1px 2px rgba(17, 24, 39, 0.04);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+/* SMALL BUTTON — 132px × 36px */
+.small {
+  /* Button layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 132px;
+  height: 36px;
+
+  /* padding: var(--Spacing-sp-10, 10px) var(--Spacing-sp-16, 16px); */
+  gap: var(--Spacing-sp-6, 6px);
+
+  border-radius: var(--Corner-Radius-2xsmall, 8px);
+  border: 1px solid var(--UI-Color-Border-neutral-10, #E5E7EB);
+  background: var(--UI-Color-Surface-Container-Neutral-neutral-00, #FFF);
+
+  box-shadow:
+    0 1px 2px 0 rgba(17, 24, 39, 0.04),
+    0 1px 2px 0 rgba(17, 24, 39, 0.04);
+
+  cursor: pointer;
+}
+
+/* TYPOGRAPHY for small button text */
+.small span{
+  color: var(--UI-Color-On-Surface-on-neutral-00---1, #374151);
+  text-align: center;
+
+  font-family: var(--Typogrraphy-Label-inter-font-family, Inter);
+  font-size: var(--Typogrraphy-Label-L-2-size, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--Typogrraphy-Label-L-2-line-height, 16px);
+  letter-spacing: var(--Typogrraphy-Label-letter-spacing, 0);
+}
+
+/* ================================
+   Large Button — TALK TO EXPERT
+   Width: 146px | Height: 44px
+================================ */
+.large {
+  width: 146px;
+  height: 44px;
+  padding: 10px 16px;
+}
+
+/* ================================
+   Icons
+================================ */
+.iconRight {
+  margin-left: 4px;
+}
+
+.iconLeft {
+  margin-right: 4px;
+}
