@@ -43,7 +43,7 @@ const OurLendingPartners = () => {
     },
   ]
   return (
-    <div className='w-full  mt-[72px]'>
+    <div className='w-full mt-[72px]'>
 
         {/*heading  */}
       <div className='w-full gap-[8px]'>
